@@ -1,0 +1,33 @@
+# Poetry virtual environment
+.venv/
+
+# Python cache and tooling output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated ML artifacts
+models/*.joblib
+reports/*.csv
+
+# New local datasets
+data/raw/*.csv
